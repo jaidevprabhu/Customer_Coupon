@@ -63,5 +63,16 @@ We use the value_counts method and obtain the count of each type of coupon issue
 ```
 coupon_data = data.coupon.value_counts()
 ```
-we use the value_counts method and obtain the count of each type of coupon issued, and save the data into a new variable - which is a series that has an index for each category and a value that is a count for that category.
+We use the value_counts method and obtain the count of each type of coupon issued, and save the data into a new variable - which is a series that has an index for each category and a value that is a count for that category.
 ![Coupon Type distribution](images/coupon_food_distribution.png)
+
+### Question 3:
+> Use a histogram to visualize the temperature column.
+```
+data['temperature'].value_counts()
+```
+More details in the notebook on how the chart was plotted. 
+![Temperature Chart, with coupon acceptance](images/temperatures.png)
+:memo: **Key Finding** 
+Coupon acceptance is greatest at a higher temperature - showing more openness to driving out for food in more cmfortable weather conditions.
+
