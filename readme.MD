@@ -82,10 +82,10 @@ Coupon acceptance is greatest at a higher temperature - showing more openness to
 #### 4(a):
 > Create a new DataFrame that contains just the bar coupons; and find out What proportion of bar coupons were accepted?
 
-'''
+```
 bar_coupon_df = data.query('coupon == "Bar"')
 bar_coupon_df.Y.value_counts(normalize=True)
-'''
+```
 It is observed that **41.00%** of Bar coupons were accepted.
 
 #### 4(b), (c) & (d) 
@@ -104,3 +104,19 @@ More details are given and the questions answered in the notebook.
 
 **Summary**
 In summary the main point about those who accept Bar coupons are those who frequent the Bars - all those who go to Bars at least once a month were **twice** more than likely to accept the coupon. 
+
+### Independent Investigation
+
+> Using the bar coupon example as motivation, you are to explore one of the other coupon groups and try to determine the characteristics of passengers who accept the coupons.
+
+Among those who have accepted the coupon - let's find out various characteristics of where the chosen restaurant was in terms of driving time and the direction (same or opposite). 
+The notebook discusses the analysis and the findings.
+
+The last item we look into is data about coupon acceptance based on age group of the drivers.
+![Coupon acceptance by Age](images/coupons_acceptance_graph.png)
+
+### Analysis and Summary of Observation
+
+We noted earlier that in the entire dataset the coupon acceptance is **56.84%** so as a general observation more drivers accepted the coupon than not. 
+
+Here we delver deeper into the drivers age groups to see which group were more succeptible to use the coupon. While many groups tended to mirror the total population, these 2 groups significantly had higher acceptanec rates - **21-25** Year-olds and **26-30** Year-olds. This demographic would be best suited in future promostions to be targetted with coupons. 
