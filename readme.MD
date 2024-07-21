@@ -45,3 +45,23 @@ data['CarryAway'] = data['CarryAway'].fillna('less1')
 data['RestaurantLessThan20'] = data['RestaurantLessThan20'].fillna('less1')
 data['Restaurant20To50'] = data['Restaurant20To50'].fillna('less1')
 ```
+
+### Question 1: 
+> What proportion of the total observations chose to accept the coupon?
+
+We look at the column Y that contains the value 1 if accepted or 0 if not accepted. We use the value_counts method on Y and apply the normalize parameter to get the answer in percentage.
+
+```
+data.Y.value_counts(normalize=True)
+```
+More details in the notebook on how the chart was plotted. 
+![Coupon Acceptance Chart](images/coupons_acceptance_graph.png)
+
+### Question 2:
+> Use a bar plot to visualize the coupon column.
+We use the value_counts method and obtain the count of each type of coupon issued, and save the data into a new variable - which is a series that has an index for each category and a value that is a count for that category.
+```
+coupon_data = data.coupon.value_counts()
+```
+we use the value_counts method and obtain the count of each type of coupon issued, and save the data into a new variable - which is a series that has an index for each category and a value that is a count for that category.
+![Coupon Type distribution](images/coupon_food_distribution.png)
