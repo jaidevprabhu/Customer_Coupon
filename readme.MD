@@ -104,7 +104,7 @@ Among those who have accepted the coupon - let's find out various characteristic
 The notebook discusses the analysis and the findings.
 
 The last item we look into is data about coupon acceptance based on the age group of the drivers.
-![Coupon acceptance by Age](images/coupons_acceptance_graph.png)
+![Coupon acceptance by Age](images/coupons_age.png)
 
 ### Analysis and Summary of Observation
 
