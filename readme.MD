@@ -29,7 +29,7 @@ Looking at questions later in this assignment, it becomes clear that the period 
 1. We decide to drop the **cars** column since it contains very few observations.
 2. The following columns have NaN values - it makes sense to mark these as `less1` - because it may prove useful in certain cases while deciding to offer coupons.
 
-```
+```python
 data['Bar'] = data['Bar'].fillna('less1')
 data['CoffeeHouse'] = data['CoffeeHouse'].fillna('less1')
 data['CarryAway'] = data['CarryAway'].fillna('less1')
@@ -42,7 +42,7 @@ data['Restaurant20To50'] = data['Restaurant20To50'].fillna('less1')
 
 We look at the column Y that contains the value 1 if accepted or 0 if not accepted. We use the value_counts method on Y and apply the normalize parameter to get the answer in percentage.
 
-```
+```python
 data.Y.value_counts(normalize=True)
 ```
 More details in the notebook on how the chart was plotted. 
@@ -51,7 +51,7 @@ More details in the notebook on how the chart was plotted.
 ### Question 2:
 > Use a bar plot to visualize the coupon column.
 We use the value_counts method and obtain the count of each type of coupon issued, and save the data into a new variable - which is a series that has an index for each category and a value that is a count for that category.
-```
+```python
 coupon_data = data.coupon.value_counts()
 ```
 We use the value_counts method and obtain the count of each type of coupon issued, and save the data into a new variable - which is a series that has an index for each category and a value that is a count for that category.
@@ -59,7 +59,7 @@ We use the value_counts method and obtain the count of each type of coupon issue
 
 ### Question 3:
 > Use a histogram to visualize the temperature column.
-```
+```python
 data['temperature'].value_counts()
 ```
 More details in the notebook on how the chart was plotted. 
@@ -73,7 +73,7 @@ Coupon acceptance is greatest at a higher temperature - showing more openness to
 #### 4(a):
 > Create a new DataFrame that contains just the bar coupons; and find out What proportion of bar coupons were accepted?
 
-```
+```python
 bar_coupon_df = data.query('coupon == "Bar"')
 bar_coupon_df.Y.value_counts(normalize=True)
 ```
