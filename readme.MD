@@ -95,15 +95,15 @@ More details are given and the questions answered in the notebook.
 #### 4(e)
 > Based on these observations, what do you hypothesize about drivers who accepted the bar coupons?
 
--  To start with we observe that **41%** of those drivers who were offered Bar coupons accepted them. 
--  We now look at some sub-groups to see what other characteristics of the drivers are significant in the probability that the drivers accepted the Bar coupons.
-  -  In Question #4(b) above we see that **76.88%** of those who frequent the bars more than 3 times a month accepted the coupon this is almost **twice** the rate of all the drivers who were offered a Bar coupon.
-  -  In Question #4(c)  - we lower the bar - not pun intended 😂 and look at drivers who frequent bars at least once a month and are well above legal age of drinking, i.e. 25 years and above. Here we also find significantly higher rates accepted the coupon at **69.52%**
-  -  IMHO, question #4(d) did not give us any extra insight since this group's coupon acceptance at **71.32%** was mostly similar to those we found in Q4. The subgroup of the occupation selected is too small at 0.5% of the total to be of any relavance. The main grouping of selecting those who frequent bars at least once a month is the key discerning factor here.
-  -  In Question #6 - we have too many criteria and we seem to be OR'ing them - so the final answer is not in anyway useful in getting us any insight as to who to target in future.
+ To start with we observe that **41%** of drivers offered Bar coupons accepted them. 
+  -  We now look at some sub-groups to see what other characteristics of the drivers are significant in the probability that the drivers accepted the Bar coupons.
+  -  In Question #4(b) above, we see that **76.88%** of those who frequent the bars more than three times a month accepted the coupon. This is almost **twice** the rate of all the drivers who were offered a Bar coupon.
+  -  In Question #4(c)  - we lower the bar - not pun intended 😂 and look at drivers who frequent bars at least once a month and are well above the legal drinking age, i.e., 25 years and above. Here, we also find significantly higher rates accepted the coupon at **69.52%**
+  -  IMHO, question #4(d) did not give us any extra insight since this group's coupon acceptance at **71.32%** was mostly similar to those we found in Q4. The subgroup of the selected occupation is too small at 0.5% of the total to be relevant. The key discerning factor here is the primary grouping of selecting those who frequent bars at least once a month.
+  -  In Question #4(e) - we have too many criteria, and we are OR'ing them - so the final answer is not in any way useful in getting us any insight as to who to target in the future.
 
 **Summary**
-In summary the main point about those who accept Bar coupons are those who frequent the Bars - all those who go to Bars at least once a month were **twice** more than likely to accept the coupon. 
+In summary, the main point about those who accept Bar coupons is those who frequent the Bars - all those who go to Bars at least once a month were **twice** more likely to accept the coupon. 
 
 ### Independent Investigation
 
@@ -112,13 +112,13 @@ In summary the main point about those who accept Bar coupons are those who frequ
 Among those who have accepted the coupon - let's find out various characteristics of where the chosen restaurant was in terms of driving time and the direction (same or opposite). 
 The notebook discusses the analysis and the findings.
 
-The last item we look into is data about coupon acceptance based on age group of the drivers.
+The last item we look into is data about coupon acceptance based on the age group of the drivers.
 ![Coupon acceptance by Age](images/coupons_acceptance_graph.png)
 
 ### Analysis and Summary of Observation
 
-We noted earlier that in the entire dataset the coupon acceptance is **56.84%** so as a general observation more drivers accepted the coupon than not. 
+We noted earlier that in the entire dataset, the coupon acceptance is **56.84%**, so as a general observation, more drivers accepted the coupon than did not. 
 
-Here we delve deeper into the drivers age groups to see which group were more succeptible to use the coupon. While many groups tended to mirror the total population, these 2 groups significantly had higher acceptanec rates - **21-25** Year-olds and **26-30** Year-olds. 
+Here we delve deeper into the drivers age groups to see which group was more susceptible to using the coupon. While many groups tended to mirror the total population, these two groups significantly had higher acceptance rates - **21-25** Year-olds and **26-30** Year-olds. 
 
-:memo: **Key Finding** This demographic would be best suited in future promostions to be targetted with coupons. 
+:memo: **Key Finding** This demographic would be best suited for future promotions to be targeted with coupons. 
