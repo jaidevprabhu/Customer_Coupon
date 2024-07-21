@@ -119,4 +119,6 @@ The last item we look into is data about coupon acceptance based on age group of
 
 We noted earlier that in the entire dataset the coupon acceptance is **56.84%** so as a general observation more drivers accepted the coupon than not. 
 
-Here we delver deeper into the drivers age groups to see which group were more succeptible to use the coupon. While many groups tended to mirror the total population, these 2 groups significantly had higher acceptanec rates - **21-25** Year-olds and **26-30** Year-olds. This demographic would be best suited in future promostions to be targetted with coupons. 
+Here we delve deeper into the drivers age groups to see which group were more succeptible to use the coupon. While many groups tended to mirror the total population, these 2 groups significantly had higher acceptanec rates - **21-25** Year-olds and **26-30** Year-olds. 
+
+:memo: **Key Finding** This demographic would be best suited in future promostions to be targetted with coupons. 
