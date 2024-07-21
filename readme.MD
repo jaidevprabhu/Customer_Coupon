@@ -73,6 +73,34 @@ data['temperature'].value_counts()
 ```
 More details in the notebook on how the chart was plotted. 
 ![Temperature Chart, with coupon acceptance](images/temperatures.png)
-:memo: **Key Finding** 
-Coupon acceptance is greatest at a higher temperature - showing more openness to driving out for food in more cmfortable weather conditions.
 
+:memo: **Key Finding** 
+Coupon acceptance is greatest at a higher temperature - showing more openness to driving out for food in more comfortable weather conditions.
+
+### Question 4: Bar Coupons
+
+#### 4(a):
+> Create a new DataFrame that contains just the bar coupons; and find out What proportion of bar coupons were accepted?
+
+'''
+bar_coupon_df = data.query('coupon == "Bar"')
+bar_coupon_df.Y.value_counts(normalize=True)
+'''
+It is observed that **41.00%** of Bar coupons were accepted.
+
+#### 4(b), (c) & (d) 
+> Here we look at various sub-groups and their acceptance rates. 
+More details are given and the questions answered in the notebook.
+
+#### 4(e)
+> Based on these observations, what do you hypothesize about drivers who accepted the bar coupons?
+
+-  To start with we observe that **41%** of those drivers who were offered Bar coupons accepted them. 
+-  We now look at some sub-groups to see what other characteristics of the drivers are significant in the probability that the drivers accepted the Bar coupons.
+  -  In Question #4(b) above we see that **76.88%** of those who frequent the bars more than 3 times a month accepted the coupon this is almost **twice** the rate of all the drivers who were offered a Bar coupon.
+  -  In Question #4(c)  - we lower the bar - not pun intended 😂 and look at drivers who frequent bars at least once a month and are well above legal age of drinking, i.e. 25 years and above. Here we also find significantly higher rates accepted the coupon at **69.52%**
+  -  IMHO, question #4(d) did not give us any extra insight since this group's coupon acceptance at **71.32%** was mostly similar to those we found in Q4. The subgroup of the occupation selected is too small at 0.5% of the total to be of any relavance. The main grouping of selecting those who frequent bars at least once a month is the key discerning factor here.
+  -  In Question #6 - we have too many criteria and we seem to be OR'ing them - so the final answer is not in anyway useful in getting us any insight as to who to target in future.
+
+**Summary**
+In summary the main point about those who accept Bar coupons are those who frequent the Bars - all those who go to Bars at least once a month were **twice** more than likely to accept the coupon. 
